@@ -1,0 +1,200 @@
+#wrapper{
+    display:grid;
+    grid-template-areas:
+        "nestedgrid nestedgrid nestedgrid"
+                         "header header images"
+                          "main main images"
+                          "footer footer footer";
+}
+
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a:active{
+    color:white;
+    text-decoration: none;
+
+}
+
+
+
+#nestedgrid{
+    grid-area:nestedgrid;
+    display:grid;
+    grid-template-areas:"name home aboutme cb contact";
+    background-color:rgb(232, 211, 225);
+    padding-bottom:45px;   
+    color:white;
+}
+
+#name{
+    grid-area: name;
+    text-align:left;
+    background-color:rgb(232, 211, 225) ;
+    padding-right:45px;
+    padding-left:25px;
+    padding-top:25px;
+    padding-bottom:35px;
+    color:white;
+   
+}
+
+
+#home{
+    grid-area: home;
+    text-align:right;
+    background-color: rgb(232, 211, 225);
+    padding-left: 15px;
+    padding-right:45px;
+    padding-top:25px;
+    padding-bottom:35px;
+   
+    color:white;
+}
+
+#aboutme{
+    grid-area:aboutme;
+    text-align:right;
+        background-color:rgb(232, 211, 225);
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:25px;
+    padding-bottom:35px;
+    color:white;
+ 
+ 
+}
+
+
+#cb{
+    grid-area:cb;
+    text-align:right;
+        background-color: rgb(232, 211, 225);
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:25px;
+    padding-bottom:35px;
+    color:white;
+    
+    
+}
+
+
+#contact {
+    grid-area:contact;
+    text-align:right;
+        background-color:rgb(232, 211, 225);
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:25px;
+    padding-bottom:35px;
+    color:white;
+ 
+   
+}
+
+#images {
+    grid-area:images;
+    text-align:right;
+        background-color:rgb(232, 211, 225);
+    padding-right:80px;
+    padding-top:25px;
+    padding-bottom:25px;
+
+   
+}
+
+img{
+border-radius: 200px;
+    margin-right: 125px;
+    margin-top: 10px;
+}
+
+
+#header{
+    grid-area:header;
+    text-align: left;
+  
+      padding-left: 75px;
+  
+
+    background-color: rgb(232, 211, 225);
+    color: white;
+    font-size: 45px;
+    border: rgb(232, 211, 225);
+   
+}
+
+#main{
+   grid-area:main;
+    text-align: left;
+    padding-left: 75px;
+    color:white;
+  font-size:33px;
+    padding-bottom: 250px;
+    background-color: rgb(232, 211, 225);
+    border: rgb(232, 211, 225);
+    
+  
+}
+
+#footer{
+grid-area:footer;
+    background-color:gainsboro;
+    text-align:center;
+    padding-top: 100px;
+    padding-bottom:100px;
+    padding-left:50px;
+    padding-right:50px;
+     border: 1px solid black;
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
